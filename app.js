@@ -1,223 +1,3 @@
-// function unArray(n) {
-//     this.length = n;
-//     for (let i=1; i<=n; i++) {
-//     this[i] = "";
-//     }
-//     return this;
-//     }
-//     let i;
-//     function imageAleatorie() {
-//     i = Math.floor(3 * Math.random() + 1);
-//     return image[i];
-//     }
-    
-//     image = new unArray(54);
-//     image[1]="images\ajolote.png";
-//     image[2]="images\alacran.png";
-//     image[3]="images\araña.png";
-//     image[4]="images\arbol.png";
-//     image[5]="images\bandera.png";
-//     image[6]="images\barril.png";
-//     image[7]="images\bandolon.png";
-//     image[8]="images\bota.png";
-//     image[9]="images\botella.png";
-//     image[10]="images\buscardor.png";
-//     image[11]="images\calavera.png";
-//     image[12]="images\camaron.png";
-//     image[13]="images\campana.png";
-//     image[14]="images\cantarito.png";
-//     image[15]="images\catrin.png";
-//     image[16]="images\cazo.png";
-//     image[17]="images\chalupa.png";
-//     image[18]="images\concha.png";
-//     image[19]="images\corazon.png";
-//     image[20]="images\corona.png";
-//     image[21]="images\cotorro.png";
-//     image[22]="images\dama.png";
-//     image[23]="images\el arpa.png";
-//     image[24]="images\elote.png";
-//     image[25]="images\emoji.png";
-//     image[26]="images\escalera.png";
-//     image[27]="images\estrella.png";
-//     image[28]="images\gallo.png";
-//     image[29]="images\garza.png";
-//     image[30]="images\gorro.png";
-//     image[31]="images\guacamole.png";
-//     image[32]="images\la-maceta.png";
-//     image[33]="images\la-mano.png";
-//     image[34]="images\la-palma.png";
-//     image[35]="images\la-pera.png";
-//     image[36]="images\la-rana.png";
-//     image[37]="images\la-rosa.png";
-//     image[38]="images\la-sandia.png";
-//     image[39]="images\la-sirena.png";
-//     image[40]="images\las-jaras.png";
-//     image[41]="images\luna.png";
-//     image[42]="images\melon.png";
-//     image[43]="images\mundo.png";
-//     image[44]="images\musico.png";
-//     image[45]="images\nopal.png";
-//     image[46]="images\pajaro.png";
-//     image[47]="images\paraguas.png";
-//     image[48]="images\pescado.png";
-//     image[49]="images\pino.png";
-//     image[50]="images\sol.png";
-//     image[51]="images\tambor.png";
-//     image[52]="images\venado.png";
-//     image[53]="images\violoncello.png";
-//     image[54]="images\xoloitzcuintle.png";
-
-//     function unArray();
-
-// let cards =[image[1]="images\ajolote.png",
-//     image[2]="images\alacran.png"
-//     image[3]="images\araña.png",
-//     image[4]="images\arbol.png",
-//     image[5]="images\bandera.png",
-//     image[6]="images\barril.png",
-//     image[7]="images\bandolon.png",
-//     image[8]="images\bota.png",
-//     image[9]="images\botella.png",
-//     image[10]="images\buscardor.png",
-//     image[11]="images\calavera.png",
-//     image[12]="images\camaron.png",
-//     image[13]="images\campana.png",
-//     image[14]="images\cantarito.png",
-//     image[15]="images\catrin.png",
-//     image[16]="images\cazo.png",
-//     image[17]="images\chalupa.png"
-//     image[18]="images\concha.png",
-//     image[19]="images\corazon.png",
-//     image[20]="images\corona.png",
-//     image[21]="images\cotorro.png",
-//     image[22]="images\dama.png",
-//     image[23]="images\el arpa.png",
-//     image[24]="images\elote.png",
-//     image[25]="images\emoji.png",
-//     image[26]="images\escalera.png",
-//     image[27]="images\estrella.png",
-//     image[28]="images\gallo.png",
-//     image[29]="images\garza.png",
-//     image[30]="images\gorro.png",
-//     image[31]="images\guacamole.png",
-//     image[32]="images\la-maceta.png",
-//     image[33]="images\la-mano.png",
-//     image[34]="images\la-palma.png",
-//     image[35]="images\la-pera.png",
-//     image[36]="images\la-rana.png",
-//     image[37]="images\la-rosa.png",
-//     image[38]="images\la-sandia.png",
-//     image[39]="images\la-sirena.png",
-//     image[40]="images\las-jaras.png",
-//     image[41]="images\luna.png",
-//     image[42]="images\melon.png",
-//     image[43]="images\mundo.png",
-//     image[44]="images\musico.png",
-//     image[45]="images\nopal.png",
-//     image[46]="images\pajaro.png",
-//     image[47]="images\paraguas.png",
-//     image[48]="images\pescado.png",
-//     image[49]="images\pino.png",
-//     image[50]="images\sol.png",
-//     image[51]="images\tambor.png",
-//     image[52]="images\venado.png",
-//     image[53]="images\violoncello.png",
-//     image[54]="images\xoloitzcuintle.png"]
-
-//     function displayCards() {
-//         let showCard = [Math.floor(Math.random() * cards.length)];
-//         document.getElementById('mostrar').innerHTML = showCard;
-//     }
-
-
-// function displayCard () {
-    // let images = ["images/ajolote.png","images/alacran.png","images/araña.png"]
-    // image[4]="images\arbol.png",
-    // image[5]="images\bandera.png",
-    // image[6]="images\barril.png",
-    // image[7]="images\bandolon.png",
-    // image[8]="images\bota.png",
-    // image[9]="images\botella.png",
-    // image[10]="images\buscardor.png",
-    // image[11]="images\calavera.png",
-    // image[12]="images\camaron.png",
-    // image[13]="images\campana.png",
-    // image[14]="images\cantarito.png",
-    // image[15]="images\catrin.png",
-    // image[16]="images\cazo.png",
-    // image[17]="images\chalupa.png"
-    // image[18]="images\concha.png",
-    // image[19]="images\corazon.png",
-    // image[20]="images\corona.png",
-    // image[21]="images\cotorro.png",
-    // image[22]="images\dama.png",
-    // image[23]="images\el arpa.png",
-    // image[24]="images\elote.png",
-    // image[25]="images\emoji.png",
-    // image[26]="images\escalera.png",
-    // image[27]="images\estrella.png",
-    // image[28]="images\gallo.png",
-    // image[29]="images\garza.png",
-    // image[30]="images\gorro.png",
-    // image[31]="images\guacamole.png",
-    // image[32]="images\la-maceta.png",
-    // image[33]="images\la-mano.png",
-    // image[34]="images\la-palma.png",
-    // image[35]="images\la-pera.png",
-    // image[36]="images\la-rana.png",
-    // image[37]="images\la-rosa.png",
-    // image[38]="images\la-sandia.png",
-    // image[39]="images\la-sirena.png",
-    // image[40]="images\las-jaras.png",
-    // image[41]="images\luna.png",
-    // image[42]="images\melon.png",
-    // image[43]="images\mundo.png",
-    // image[44]="images\musico.png",
-    // image[45]="images\nopal.png",
-    // image[46]="images\pajaro.png",
-    // image[47]="images\paraguas.png",
-    // image[48]="images\pescado.png",
-    // image[49]="images\pino.png",
-    // image[50]="images\sol.png",
-    // image[51]="images\tambor.png",
-    // image[52]="images\venado.png",
-    // image[53]="images\violoncello.png",
-    // image[54]="images\xoloitzcuintle.png"]
-
-// let randomImage = [];
-
-// for (let e of images) {
-//     let imagen = new Image();
-//     imagen.src = e.src;
-
-//     randomImage.push(imagen)
-// }
-
-// let imagenAleatoria = generacionAleatoria(images.length);
-// let imagen1 = randomImage[imagenAleatoria];
-
-// let colocarImagen = document.getElementsByTagName(src)
-// let creacionImagen = document.body.appendChild(imagen1);
-
-
-// function generacionAleatoria(imagenee){
-//     return Math.floor(Math.random) * (imagenee);
-// }
-// }
-
-// function displayCards() {
-//     let imagesRandomly = images[Math.floor(Math.random() *images.length)];
-
-//     for(i = 0; i <= images.length; i++) {
-//     if(imagesRandomly[i] === imagesRandomly[i])
-//     } 
-
-
-//     document.getElementsByTagName('src')
-//     document.getElementsByTagName('src').innerHTML = 'src';
-
-
-// Arreglo imagenes
 let images = ["images/ajolote.png","images/alacran.png","images/araña.png","images/bandera.png","images/barril.png","images/bandolon.png","images/bota.png","images/botella.png","images/buscardor.png","images/calavera.png","images/camaron.png","images/campana.png","images/cantarito.png","images/catrin.png","images/cazo.png","images/chalupa.png","images/concha.png","images/corazon.png","images/corona.png","images/cotorro.png","images/dama.png","images/el arpa.png","images/elote.png","images/emoji.png","images/escalera.png","images/estrella.png","images/gallo.png","images/garza.png","images/gorro.png","images/guacamole.png","images/la-maceta.png","images/la-mano.png","images/la-palma.png","images/la-pera.png","images/la-rana.png","images/la-rosa.png","images/la-sandia.png","images/la-sirena.png","images/las-jaras.png","images/luna.png","images/melon.png","images/mundo.png","images/musico.png","images/nopal.png","images/pajaro.png","images/paraguas.png","images/pescado.png","images/pino.png","images/sol.png","images/tambor.png","images/venado.png","images/violoncello.png","images/xoloitzcuintle.png","images/arbol.png"]
 
 
@@ -334,20 +114,6 @@ let carta16 = null;
 let resultado16 = null;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function tacharCarta(id) {
     cartasClic++;
     console.log(cartasClic);
@@ -371,6 +137,49 @@ function tacharCarta(id) {
         carta5 = document.getElementById(id);
         resultado5 =cartasClic[id];
         carta5.disabled = true;
+    } else if(cartasClic == 6){
+        carta6 = document.getElementById(id);
+        resultado6 =cartasClic[id];
+        carta6.disabled = true;
+    } else if(cartasClic == 7){
+        carta7 = document.getElementById(id);
+        resultado7 =cartasClic[id];
+        carta7.disabled = true;
+    } else if(cartasClic == 8){
+        carta8 = document.getElementById(id);
+        resultado8 =cartasClic[id];
+        carta8.disabled = true;
+    } else if(cartasClic == 9){
+        carta9 = document.getElementById(id);
+        resultado9 =cartasClic[id];
+        carta9.disabled = true;
+    } else if(cartasClic == 10){
+        carta10 = document.getElementById(id);
+        resultado10 =cartasClic[id];
+        carta10.disabled = true;
+    } else if(cartasClic == 11){
+        carta11 = document.getElementById(id);
+        resultado11 =cartasClic[id];
+        carta11.disabled = true;
+    } else if(cartasClic == 12){
+        carta12 = document.getElementById(id);
+        resultado12 =cartasClic[id];
+        carta12.disabled = true;
+    } else if(cartasClic == 13){
+        carta13 = document.getElementById(id);
+        resultado13 =cartasClic[id];
+        carta13.disabled = true;
+    } else if(cartasClic == 14){
+        carta14 = document.getElementById(id);
+        resultado14 =cartasClic[id];
+        carta14.disabled = true;
+    } else if(cartasClic == 15){
+        carta15 = document.getElementById(id);
+        resultado15 =cartasClic[id];
+        carta15.disabled = true;
+    } else if(cartasClic == 16){
+        carta16 = document.getElementById(id);
+        resultado16 =cartasClic[id];
+        carta16.disabled = true; 
     }
-
-    }
+}
