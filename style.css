@@ -1,0 +1,62 @@
+body{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.instrucciones{
+    width:200px;
+    height: 50px;
+}
+.titulos{
+    color:aliceblue; 
+    text-align: center;
+}
+.img-width{
+    max-width: 100px;
+    height: 130px;
+}
+
+.size{
+    width: 420px;
+    height: 540px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#carta{
+    width: 320px;
+    height: 400px;
+    align-items:flex-start;
+    background-color: white;
+}
+.carta-img{
+    width: 310px;
+    height: 390px;
+    align-items: center;
+    margin:auto;
+    padding: 8px;
+}
+.boton{
+    background-color: white;
+}
+ .btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
+    .btn-grad {
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+
